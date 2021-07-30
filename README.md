@@ -13,4 +13,4 @@ TC in --> TC out<br>
 {newline}
 
 
-output Timecode formatting is 00:00:00,00
+output Timecode formatting is 00:00:00,00 and subtitle duration is {character_count} * 0.17
