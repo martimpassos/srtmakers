@@ -1,14 +1,16 @@
-Takes a text file formatted like: (last separator makes no difference)
+Takes a text file formatted like: (second-frame separator makes no difference)
 
-00:00:00:00 - subtitle text
-\n\n
+00:00:00:00 - subtitle text<br>
+{newline}<br>
+{newline}
 
 and outputs a .srt subtitle formatted like
 
-one-digit counter
-TC in --> TC out
-subtitle text
-\n\n
+{one-digit counter}<br>
+TC in --> TC out<br>
+{subtitle text}<br>
+{newline}<br>
+{newline}
 
 
 output Timecode formatting is 00:00:00,00
